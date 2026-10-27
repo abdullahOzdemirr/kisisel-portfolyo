@@ -19,11 +19,11 @@ Bu projede güncel ve performans odaklı şu teknolojiler tercih edilmiştir:
 Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 1. **Projeyi Klonlayın:**
-git clone 
-cd kisisel-portfolyo
+- 'git clone' 
+- 'cd kisisel-portfolyo'
 
 2. **Bağımlılıkları Yükleyin:**
-npm install
+'npm install'
 
 3. **Geliştirme Sunucusunu Başlatın:**
 `npm run dev` veya `yarn dev` veya `pnpm dev` veya `bun dev`
