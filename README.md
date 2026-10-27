@@ -26,13 +26,7 @@ cd kisisel-portfolyo
 npm install
 
 3. **Geliştirme Sunucusunu Başlatın:**
-- npm run dev
- or
-- yarn dev
- or
-- pnpm dev
- or
-- bun dev
+`npm run dev` veya `yarn dev` veya `pnpm dev` veya `bun dev`
 
 4. **Tarayıcınızda Açın:**
 Tarayıcınızdan http://localhost:3000 adresine giderek projeyi görüntüleyebilirsiniz.
