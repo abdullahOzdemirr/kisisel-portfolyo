@@ -19,7 +19,6 @@ Aşağıdaki videoda sistemin sensör verilerini nasıl anlık okuduğunu ve rö
 <iframe 
   width="100%" 
   height="400" 
-  src="https://youtube.com/embed/oJgRd4ZrO2Q?feature=share" 
   title="STM32 IoT Project Video" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -27,8 +26,6 @@ Aşağıdaki videoda sistemin sensör verilerini nasıl anlık okuduğunu ve rö
   style="border-radius: 12px; margin-top: 1rem; margin-bottom: 1rem;"
 >
 </iframe>
-
-*(Not: `YOUTUBE_VIDEO_ID_BURAYA` kısmını kendi YouTube videonun linkindeki ID ile değiştirebilirsin.)*
 
 ---
 

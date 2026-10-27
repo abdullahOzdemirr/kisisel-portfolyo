@@ -23,23 +23,4 @@ Projeyi geliştirirken görüntünün kalitesini bozmamak adına **En Önemsiz B
 
 ## 💾 Örnek Python Kodu: Metin Gizleme Fonksiyonu
 
-Projede görüntüyü matris dizilerine dökerek hızlıca işlemek için **NumPy** ve **Pillow** kütüphanelerinden yararlandım:
-
-```python
-import numpy as np
-from PIL import Image
-
-def veri_gizle(gorsel_yolu, gizli_metin, cikis_yolu):
-    # Görseli aç ve piksel verilerini NumPy dizisine çevir
-    resim = Image.open(gorsel_yolu)
-    veri = np.array(resim)
-    
-    # Metni binary formata dönüştür
-    binary_metin = ''.join(format(ord(i), '08b') for i in gizli_metin) + '1111111111111110' # Bitiş işareti
-    
-    # Piksel bitlerini manipüle etme döngüsü (LSB)
-    # (Burada binary_metin verileri piksellerin son bitine yazılır...)
-    
-    yeni_resim = Image.fromarray(veri)
-    yeni_resim.save(cikis_yolu)
-    print("Mesaj görüntüye başarıyla gizlendi!")
+https://github.com/abdullahOzdemirr/steganografi
