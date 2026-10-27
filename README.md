@@ -27,11 +27,11 @@ npm install
 
 3. **Geliştirme Sunucusunu Başlatın:**
 - npm run dev
-- or
+ or
 - yarn dev
-- or
+ or
 - pnpm dev
-- or
+ or
 - bun dev
 
 4. **Tarayıcınızda Açın:**
