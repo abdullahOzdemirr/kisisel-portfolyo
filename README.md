@@ -19,7 +19,6 @@ Bu projede güncel ve performans odaklı şu teknolojiler tercih edilmiştir:
 Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 1. **Projeyi Klonlayın:**
-```bash
 git clone 
 cd kisisel-portfolyo
 
@@ -27,7 +26,6 @@ cd kisisel-portfolyo
 npm install
 
 3. **Geliştirme Sunucusunu Başlatın:**
-```bash
 npm run dev
 # or
 yarn dev
